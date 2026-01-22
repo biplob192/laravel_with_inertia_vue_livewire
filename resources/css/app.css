@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Optional: Tell Tailwind to scan more paths (add these if classes still missing) */
+@source "../**/*.blade.php";
+@source "../**/*.vue";
+@source "../**/*.js";
+@source "../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php";
+@source "../../storage/framework/views/*.php";
+@source "../app/Livewire/**/*.php";  /* Important for Livewire components! */
