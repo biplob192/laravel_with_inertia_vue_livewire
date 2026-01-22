@@ -31,6 +31,8 @@ Both pages are returned from a controller and use their own layout system.
 
 ```bash
 git clone https://github.com/biplob192/laravel_with_inertia_vue_livewire.git
+```
+```bash
 cd laravel_with_inertia_vue_livewire
 ```
 
@@ -58,9 +60,9 @@ INERTIA_SSR_ENABLED=true
 
 ## Folder Structure Highlights
 
-app/Livewire/              ← Livewire components
-resources/js/Pages/        ← Inertia Vue pages
-resources/js/Layouts/      ← Inertia layouts
-resources/views/layouts/   ← Blade layouts (used by Livewire)
-resources/views/livewire/  ← Livewire Blade views
-resources/views/components/⚡*.blade.php  ← Livewire v4 functional components
+- app/Livewire/              ← Livewire components
+- resources/js/Pages/        ← Inertia Vue pages
+- resources/js/Layouts/      ← Inertia layouts
+- resources/views/layouts/   ← Blade layouts (used by Livewire)
+- resources/views/livewire/  ← Livewire Blade views
+- resources/views/components/⚡*.blade.php  ← Livewire v4 functional components
